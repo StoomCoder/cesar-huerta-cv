@@ -3,7 +3,7 @@ import hipsster from "../assets/hipsster.png";
 import freshBurger from "../assets/fresh-burger.png";
 import fitlift from "../assets/fitlift.png";
 
-let cards = {
+const cards = {
   card: [
     {
       id: 1,
@@ -40,4 +40,49 @@ let cards = {
   ],
 };
 
-export default cards;
+const skills = {
+  skill: [
+    {
+      id: 1,
+      type: "Framework",
+      name: "React",
+      img: viberr,
+      alt: "Viber logo",
+      progress: 60,
+    },
+    {
+      id: 2,
+      type: "Lenguage",
+      name: "Javascript",
+      img: viberr,
+      alt: "Viber logo",
+      progress: 80,
+    },
+    {
+      id: 3,
+      type: "Lenguage",
+      name: "Typescript",
+      img: viberr,
+      alt: "Viber logo",
+      progress: 70,
+    },
+    {
+      id: 4,
+      type: "SoftSkill",
+      name: "Workteam",
+      img: viberr,
+      alt: "Viber logo",
+      progress: 90,
+    },
+    {
+      id: 5,
+      type: "Framework",
+      name: "React native",
+      img: viberr,
+      alt: "Viber logo",
+      progress: 70,
+    },
+  ],
+};
+
+export { cards, skills };

@@ -15,7 +15,7 @@ import { useTheme } from "../../common/ThemeContext";
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === "light" ? moon  : sun;
+  const themeIcon = theme === "light" ? moon : sun;
   const twitterIcon = theme === "light" ? twitterLight : twitterDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
@@ -39,7 +39,7 @@ function Hero() {
           César <br />
           Huerta
         </h1>
-        <h2>FrontEnd Developer</h2>
+        <h2>FullStack Developer</h2>
         <span>
           <a href="https://www.linkedin.com/in/stoomcode/" target="_blank">
             <img src={twitterIcon} alt="" />

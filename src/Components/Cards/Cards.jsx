@@ -1,5 +1,5 @@
 import React from "react";
-import cards from "../../common/commons";
+import { cards } from "../../common/commons"; // Importación con nombre
 
 function Cards() {
   return (
