@@ -53,9 +53,7 @@ function Hero() {
         </span>
         <p className={styles.description}>
           I am a strong asset in my field, committed to excellence and always
-          ready to adapt to different environments and needs. My experience
-          reflects how I have contributed to the progress of the organizations I
-          have worked with.
+          ready to adapt to different environments and needs.
         </p>
         <a href={CV} download>
           <button className={styles.hover}>Resume</button>
